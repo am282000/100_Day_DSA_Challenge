@@ -1,4 +1,4 @@
-// Question Link: https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/AMR15A?tab=statement
+// https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/AMR15A?tab=statement
 
 //Without inbuilt method
 
@@ -6,7 +6,7 @@ function battleStatus(n, weaponsEquipped) {
   let soldiersHoldingOddWeapons = 0;
   let soldiersHoldingEvenWeapons = 0;
 
-  for (let i = 0; i < weaponsEquipped.length; i++) {
+  for (let i = 0; i < n; i++) {
     const isEven = weaponsEquipped[i] % 2 === 0;
     if (isEven) soldiersHoldingEvenWeapons++;
     else soldiersHoldingOddWeapons++;

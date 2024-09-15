@@ -1,3 +1,5 @@
+//  https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/DICEGAME2
+
 function rollDice(dice) {
   const randomIndex = Math.floor(Math.random() * dice.length);
   return dice[randomIndex]; // Returns a random value from the dice array
